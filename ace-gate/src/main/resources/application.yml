@@ -52,14 +52,14 @@ security:
         password: admin
         role: USER
 
-#gate:
-#  ignore:
-#    startWith: /static
-#    contain: .
-#  oauth:
-#    prefix: /api
-#
-#  jwt:
-#    secret: Xe*g@1jda
-#    expiration: 7200
-#    header: access-token
+gate:
+  ignore:
+    startWith: /static
+    contain: .
+  oauth:
+    prefix: /api
+
+  jwt:
+    secret: Xe*g@1jda
+    expiration: 7200
+    header: access-token
